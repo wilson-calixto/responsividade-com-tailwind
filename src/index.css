@@ -2,6 +2,7 @@
 
 @theme {
   --color-twitter-blue: #f1f1f1;
+  --breakpoint-tablet: 800px;
 }
 
 * {

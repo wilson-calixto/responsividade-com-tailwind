@@ -8,19 +8,22 @@ function App() {
 
   return (
     <>
-      <div>
-        <div className='card'> this is a card</div>
 
         <section 
-        className='m-12
-        flex h-screen items-center justify-center  bg-green-800 text-center text-2xl
-        p-12 md:p-14 lg:p-16 xl:p-20
+        className='grid   gap-8 md:grid-cols-2 md:items-center md:text-left sm:max-xl:bg-blue-500
         '>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus, id quis iste quibusdam numquam laudantium corrupti velit quas minus provident minima? Omnis deleniti quas in voluptatum dignissimos labore voluptatem optio.</p>
+          <div> 
+            <img 
+            className='w-full rounded-lg'
+            src="https://img.freepik.com/fotos-gratis/muito-bonito_1203-2633.jpg?semt=ais_hybrid&w=740&q=80" alt="placeholder" />
+          </div>
+          <div>
+            <h1 className='text-4xl font-medium mb-2'>Headline</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo harum amet doloremque nobis laboriosam, rerum maxime quia saepe, ipsa nemo nostrum! Eos accusamus facilis doloribus est dolorum sapiente aperiam laudantium?</p>
+          </div>
         </section>
-
         
-      </div>
+      
      
     </>
   )

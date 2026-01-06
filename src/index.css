@@ -1,1 +1,21 @@
 @import "tailwindcss";
+
+@theme {
+  --color-twitter-blue: #f1f1f1;
+}
+
+* {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* Classe global de card */
+.card {
+  @apply flex items-center justify-center;
+  width: 300px;
+  height: 100px;
+  background-color: theme("colors.twitter-blue");
+  border-radius: 8px;
+  border: 0.7px solid #eee;
+  box-shadow: 0 4px 10px -1px rgba(0, 0, 0, 0.1),
+              0 2px 6px -2px rgba(0, 0, 0, 0.2);
+}
